@@ -1,0 +1,19 @@
+table td, table tr, table th{
+    vertical-align: middle !important;
+}
+
+.pagination a{
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-right: none;
+}
+
+.pagination li:last-child a{
+    border-right: 1px solid #ccc;
+}
+
+.pagination .active a{
+    background-color: #eee;
+}
